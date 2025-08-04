@@ -21,9 +21,9 @@ const Navbar = () => {
       {/* Logo */}
       <Link
         to={user ? '/home' : '/'}
-        className="font-bold text-blue-600 text-2xl"
+        className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400 font-extrabold text-2xl md:text-3xl tracking-tight"
       >
-        LinkedIn
+        ConnectSphere
       </Link>
 
       {/* Hamburger Icon for Small Screens */}
@@ -103,3 +103,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
